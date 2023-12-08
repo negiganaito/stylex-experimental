@@ -1,0 +1,16 @@
+/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ *
+ */
+import { StyleXSheet } from './StyleXSheet';
+declare export class CometStyleXSheet extends StyleXSheet {
+  constructor(props: $FlowFixMe): void;
+}
+
+declare export const rootStyleSheet: $FlowFixMe;
+declare export const DARK_MODE_CLASS_NAME: $FlowFixMe;
+declare export const LIGHT_MODE_CLASS_NAME: $FlowFixMe;
