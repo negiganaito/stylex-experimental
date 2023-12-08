@@ -29,6 +29,8 @@ export declare class StyleXSheet {
   tag: null | undefined | HTMLStyleElement;
   ruleForPriority: Map<number, string>;
   getVariableMatch(): RegExp;
+  setRootTheme(theme: Theme): void;
+  setDarkTheme(theme: Theme): void;
   isHeadless(): boolean;
   getTag(): HTMLStyleElement;
   getCSS(): string;
